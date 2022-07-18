@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {}
+.primary-heading{}
+.secondary-heading{}
+.tertiary-heading{}
+.description-text{}
+.list {}
+.nav-list{}
+.list-unord{}
+.list-ord{}
+.list-item{}
+.unord-item{}
+.ord-item{}
+.page-link{}
+.list-link{}
