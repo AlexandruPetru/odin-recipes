@@ -22,27 +22,39 @@ a{
 .primary-heading{
     font-size: 52px;
     font-weight: 300;
-    text-align: center;
 }
 
 
 .secondary-heading{
-    text-align: center;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 32px;
-
+    margin: 20px;
 }
 
+.tertiary-heading{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 30px;
+}
 .primary-heading,
 .secondary-heading,
 .tertiary-heading {
     text-transform: uppercase;
+    text-align: center;
     color: #0e3013;
 }
 
-.tertiary-heading{}
-.description-text{}
+
+.description-text{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+}
 .list {
+    width: 50%;
+    margin: 0 auto;
 }
 .nav-list{
     width: 100%;
@@ -50,11 +62,25 @@ a{
 }
 .unord-list{
     list-style: none;
+    
 }
-.list-ord{}
-.list-item{}
-.unord-item{}
-.ord-item{}
+
+.list-ord{
+}
+.list-item{
+    margin-bottom: 7px;
+}
+.unord-item,
+.ord-item{
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.unord-item:nth-of-type(odd),
+.ord-item:nth-of-type(odd){
+    background-color: #656665;
+    color: #fff;
+}
+
 .page-link{
     display: inline-block;
     margin-right: 15px;
@@ -67,4 +93,6 @@ a{
 
 .img-container {
     text-align: center;
+    height: 400px;
+    margin: 15px 0;
 }
